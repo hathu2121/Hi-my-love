@@ -169,7 +169,7 @@ section {
 .slider-navigation .nav-btn.active{
     background: rgb(232, 216, 152);
 }
-.slider-navigation .nav-btn:not(:first-child){
+.slider-navigation .nav-btn{
     margin: 20px;
 }
 .slider-navigation .nav-btn:hover{
@@ -212,7 +212,7 @@ section {
         display: flex;
         justify-content: center;
         align-items: center;
-        background: rgba(1, 1, 1,0.5);
+        background: rgba(0, 0, 0, 0.5);
     }
     header .navigation .navigation-item a {
         color: rgb(255, 255, 255);
@@ -220,7 +220,7 @@ section {
         margin-left: 20px;
     }
     header .navigation .navigation-item a::before{
-        background: #222;
+        background: rgb(255, 255, 255);
         height: 5px;
     }
     header .navigation.active .navigation-item{
